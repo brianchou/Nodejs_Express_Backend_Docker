@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://reactjs-frontend-heroku.herokuapp.com"
+  origin: "http://35.234.31.120:8081"
 };
 
 app.use(cors(corsOptions));
